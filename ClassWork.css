@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+.d1 {
+    background-color:rgb(161, 219, 219);
+    position: absolute;
+    top: 26%;
+    width: 500px;
+    height: 250px;
+    left: 20%;
+    z-index: 1;
+}
+.d2 {
+    background-color:rgb(181, 184, 12);
+    position: absolute;
+    top: 22.6%;
+    width: 550px;
+    height: 300px;
+    left: 48%;
+}
+.b {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.p1 {
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.p2 {
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+html {
+    background-color: rgba(193, 211, 128, 0.592);
+}
