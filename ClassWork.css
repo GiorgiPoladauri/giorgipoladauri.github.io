@@ -1,39 +1,56 @@
-body {
+.m1 {
     text-align: center;
 }
 .d1 {
-    background-color:rgb(161, 219, 219);
+    background-color:rgb(16, 214, 232);
     position: absolute;
     top: 26%;
     width: 500px;
     height: 250px;
     left: 20%;
     z-index: 1;
+    text-align: center;
 }
 .d2 {
-    background-color:rgb(181, 184, 12);
+    background-color:rgb(12, 184, 49);
     position: absolute;
     top: 22.6%;
     width: 550px;
     height: 300px;
     left: 48%;
+    text-align: center;
 }
 .b {
-    background-color: blueviolet;
+    background-color: rgb(0, 174, 255);
     color: aliceblue;
     padding-right: 4%;
     padding-left: 4%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
+    text-align: center;
 }
 .p1 {
     margin-bottom: 1%;
     margin-top: 1%;
+    text-align: center;
 }
 .p2 {
     margin-bottom: 4%;
     margin-top: 1%;
+    text-align: center;
 }
 html {
-    background-color: rgba(193, 211, 128, 0.592);
+    background-color:bisque;
+}
+.d3 {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+.d4 {
+    position: absolute;
+    transform: scale(0.1);
+    top: 50%;
+    left: 76.5%;
+    clip-path: circle();
 }
