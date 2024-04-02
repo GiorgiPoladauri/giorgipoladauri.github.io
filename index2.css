@@ -42,3 +42,49 @@ h1 {
     position: absolute;
     text-align: center;
 }
+@media screen and (max-width: 1510px ) {
+    .i1 {
+        position: relative;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        border-color: rgb(183, 114, 23);
+        padding: 50px;
+        width: 50%;
+        height: 10%;
+        opacity: 10%;
+        display: block;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    html {
+        background-color:bisque;
+    }
+    .d4 {
+        position: absolute;
+        transform: scale(0.1);
+        top: 35%;
+        left: 46.5%;
+        clip-path: circle();
+    }
+    table,td {
+        border: 1px solid black;
+        text-align: center;
+    }
+    .d3 {
+        position: absolute;
+        background-color: rgba(128, 255, 0, 0.462);
+        border: 1px solid black;
+        text-align: center;
+        top: 15%;
+        left: 8%;
+        margin-top: 1%;
+        opacity: 90%;
+    }
+    h1 {
+        top: 2%;
+        left: 1%;
+        position: absolute;
+        text-align: center;
+    }
+}
