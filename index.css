@@ -1,4 +1,4 @@
-.m1 {
+.h1 {
     text-align: center;
 }
 .d1 {
@@ -20,7 +20,7 @@
     left: 48%;
     text-align: center;
 }
-.b {
+.b1 {
     background-color: rgb(0, 174, 255);
     color: aliceblue;
     padding-right: 4%;
@@ -53,4 +53,101 @@ html {
     top: 50%;
     left: 76.5%;
     clip-path: circle();
+}
+#b2 {
+    color: aliceblue;
+    background-color: rgb(0, 174, 255);
+    top: 25.9%;
+    left: 12.5%;
+    position: absolute;
+}
+#i1 {
+    background-color: rgb(196, 229, 245);
+    top: 26%;
+    left: 1%;
+    position: absolute;
+}
+#h2 {
+    position: absolute;
+    top: 18%;
+    left: 3%;
+}
+
+@media screen and (max-width: 1510px ) {
+.h1 {
+    text-align: center;
+    font-size: 3.5vw;
+    max-width: 100%;
+}
+.d1 {
+    background-color:rgb(16, 214, 232);
+    position: absolute;
+    top: 47%;
+    width: 300px;
+    height: 250px;
+    left: 18%;
+    z-index: 1;
+    text-align: center;
+}
+.d2 {
+    background-color:rgb(12, 184, 49);
+    position: absolute;
+    top: 22.6%;
+    width: 350px;
+    height: 300px;
+    left: 35%;
+    text-align: center;
+}
+.b1 {
+    background-color: rgb(0, 174, 255);
+    color: aliceblue;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    text-align: center;
+}
+.p1 {
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+.p2 {
+    margin-bottom: 4%;
+    margin-top: 1%;
+    text-align: center;
+}
+html {
+    background-color:bisque;
+}
+.d3 {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
+.d4 {
+    position: absolute;
+    transform: scale(0.1);
+    top: 40%;
+    left: 30.5%;
+    clip-path: circle();
+}
+#b2 {
+    color: aliceblue;
+    background-color: rgb(0, 174, 255);
+    top: 27.4%;
+    left: 23.5%;
+    position: absolute;
+}
+#i1 {
+    background-color: rgb(196, 229, 245);
+    top: 27.5%;
+    left: 3%;
+    position: absolute;
+}
+#h2 {
+    position: absolute;
+    top: 21%;
+    left: 5.9%;
+}
 }
