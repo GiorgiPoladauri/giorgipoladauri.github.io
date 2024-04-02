@@ -15,7 +15,7 @@ table,td{
 .d4 {
     position: absolute;
     transform: scale(0.1);
-    top: 50%;
-    left: 76.5%;
+    top: 20%;
+    left: 37%;
     clip-path: circle();
 }
