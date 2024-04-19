@@ -1,8 +1,13 @@
 html {
     background-color:bisque;
 }
+body {
+    width: 100vw;
+    height: 100vw;
+}
 .h1 {
     text-align: center;
+    margin-bottom: 2%;
 }
 .h2 {
     padding-top: 5%;
@@ -20,7 +25,7 @@ html {
     text-align: center;
     border-radius: 20%;
     word-wrap: break-word;
-    top: -20%;
+    top: -18%;
     margin: 0;
     z-index: 1;
 }
@@ -36,12 +41,14 @@ html {
     padding-left: 1%;
     padding-top: 1%;
     padding-bottom: 1%;
-    top: -25%;
+    top: -20%;
     margin: 0;
+    z-index: 0;
 }
 .d3 {
     position: relative;
     width: fit-content;
+    top: 4%;
 }
 .d4 {
     position: relative;
@@ -72,8 +79,5 @@ html {
     border-radius: 20%;
 }
 ul,li {
-    margin-top: 1%; 
-    margin-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
+    margin-bottom: 10%;
 }
