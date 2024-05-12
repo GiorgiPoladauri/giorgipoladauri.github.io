@@ -3,29 +3,24 @@ html {
     width: 100vw;
     height: 100vw;
 }
-table {
-    border-collapse: collapse;
-}
-td {
-    border: 2px solid black;
-    background-color: rgba(108, 253, 253, 0.637);
-    padding: 2%;
+table,td{
+    border: 1px solid black;
+    background-color: rgba(23, 217, 217, 0.637);
 }
 .div1 {
-    text-align: center;
-}
-.div2 {
-    text-align: center;
     position: relative;
-    margin-top: 5%;
-    word-wrap: break-word;
-    width: 41.5%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    opacity:calc(0.9);
 }
 .div3 {
-    text-align: center;
-    position: relative;
+    display: flex;
+    justify-content: center;
     margin-top: 5%;
 }
 .button1 {
@@ -47,4 +42,14 @@ td {
     padding-top: 1%;
     padding-bottom: 1%;
     border-radius: 50%;
+}
+.video1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 2%;
+    left: 00%;
+    z-index: -1;
+    opacity:calc(0.6);
+    border-radius: 40%;
 }
