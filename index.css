@@ -1,5 +1,5 @@
 html {
-    background-color:bisque;
+    background-color:lightgreen;
 }
 body {
     width: 100vw;
@@ -47,17 +47,17 @@ a {
 }
 .div0 {
     text-align: center;
-    background-color: burlywood;
+    background-color:dodgerblue;
     border: 1px solid black;
-    border-radius: 12px;
-    width: 100%;
-    top: 0%;
+    width: 110%;
+    top: -1%;
+    left: -5%;
     position: relative;
 }
 .div1 {
     position: relative;
     width: 99vw;
-    background-color:rgb(213, 149, 65) ;
+    background-color:limegreen;
     border-radius: 24px;
     margin-bottom: 1%;
     transition: 1s;
@@ -65,7 +65,7 @@ a {
 .div1:hover {
     position: relative;
     width: 90%;
-    background-color:rgb(255, 145, 0) ;
+    background-color: rgb(0, 255, 0);
     border-radius: 24px;
     transition: 1s;
 }
@@ -77,7 +77,7 @@ a {
     width: fit-content;
 }
 .div3 {
-    background-color:rgb(43, 176, 188);
+    background-color:dodgerblue;
     position: relative;
     width: 30%;
     padding-right: 1%;
@@ -93,7 +93,7 @@ a {
     transition: 1s;
 }
 .div3:hover {
-    background-color:rgb(0, 234, 255);
+    background-color:rgb(0, 128, 255);
     position: relative;
     width: 30%;
     padding-right: 1%;
@@ -109,7 +109,7 @@ a {
     transition: 1s;
 }
 .div4 {
-    background-color:rgb(12, 184, 49);
+    background-color:limegreen;
     left: 25%;
     text-align: center;
     border-radius: 10%;
@@ -125,7 +125,7 @@ a {
     transition: 1s;
 }
 .div4:hover {
-    background-color:rgb(0, 255, 55);
+    background-color:rgb(0, 255, 0);
     left: 25%;
     text-align: center;
     border-radius: 35%;
@@ -147,7 +147,7 @@ a {
     height: 10%;
     bottom: -100%;
     left: -5%;
-    background-color: burlywood;
+    background-color: dodgerblue;
     border: 1px solid black;
 }
 .div6 {
@@ -165,7 +165,7 @@ a {
     height: 100%;
 }
 .button1 {
-    background-color: rgb(0, 174, 255);
+    background-color: dodgerblue;
     color: black;
     padding-right: 4%;
     padding-left: 4%;
@@ -178,7 +178,7 @@ a {
     margin-right:10%
 }
 .button1:hover {
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(0, 128, 255);
     color: aliceblue;
     padding-right: 4%;
     padding-left: 4%;
@@ -192,19 +192,19 @@ a {
 }
 .button2 {
     color: black;
-    background-color: rgb(0, 174, 255);
+    background-color: dodgerblue;
     border-radius: 20%;
 }
 .button2:hover {
     color: aliceblue;
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(0, 128, 255);
     border-radius: 20%;
 }
 .button3 {
     position: absolute; 
     top: 14%;
     left: 5%;
-    background-color: rgb(30, 129, 175);
+    background-color: dodgerblue;
     color: black;
     padding-left: 2%;
     padding-right: 2%;
@@ -217,7 +217,7 @@ a {
     position: absolute; 
     top: 14%;
     left: 5%;
-    background-color: rgb(0, 174, 255);
+    background-color: rgb(0, 128, 255);
     color: aliceblue;
     padding-left: 2%;
     padding-right: 2%;
