@@ -19,6 +19,10 @@ textarea {
     border-radius: 12px;
     resize: none;
     height: 50%;
+    border: 1px solid black;
+}
+input {
+    border-radius: 12px;
 }
 label {
     color: aliceblue;
@@ -26,8 +30,21 @@ label {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+.h1 {
+    color: dodgerblue;
+    font-size: 165%;
+    margin: 5%;
+    margin-top: 15%;
+    border-right: 2px solid limegreen;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 10s steps(100, end) infinite;
+}
 .div0 {
     text-align: center;
+    background-color: limegreen;
+    border-radius: 240px;
+    padding: 1.5%;
 }
 .div1 {
     display: flex;
@@ -38,6 +55,8 @@ label {
     background-color: dodgerblue;
     border-radius: 124px;
     border: 3px solid limegreen;
+    position: relative;
+    top: 5%;
 }
 .div2 {
     position: relative;
@@ -57,6 +76,18 @@ label {
     background-color: dodgerblue;
     border: 1px solid black;
 }
+.div4 {
+    width: 10%;
+    height: 20%;
+    background-image: url('AramiantsHospitalTbilisi-01.png');
+    background-size: cover;
+    animation: heartbeat 1.5s infinite;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    z-index: 999;
+}
 .button1 {
     border-radius: 24px;
     opacity: calc(0.6);
@@ -70,7 +101,7 @@ label {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.button1:hover{
+.button1:hover {
     transition: 1s;
     color: aliceblue;
     background-color: limegreen;
@@ -102,4 +133,32 @@ label {
     padding-bottom: 1%;
     border-radius: 50%;
     opacity: calc(1.0);
+}
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    30% {
+        width: 100%;
+    }
+    40% {
+        width: 100%;
+    }
+    60% {
+        width: 0;
+    }
+    70% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
 }

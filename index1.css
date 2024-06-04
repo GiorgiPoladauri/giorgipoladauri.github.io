@@ -37,6 +37,18 @@ table,td {
     background-color: dodgerblue;
     border: 1px solid black;
 }
+.div6 {
+    width: 10%;
+    height: 20%;
+    background-image: url('AramiantsHospitalTbilisi-01.png');
+    background-size: cover;
+    animation: heartbeat 1.5s infinite;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    z-index: 999;
+}
 .button1 {
     transition: 1s;
     color: black;
@@ -68,4 +80,12 @@ table,td {
     z-index: -1;
     opacity:calc(0.6);
     border-radius: 40%;
+}
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
 }

@@ -41,6 +41,18 @@ h1 {
     background-color: dodgerblue;
     border: 1px solid black;
 }
+.div6 {
+    width: 10%;
+    height: 20%;
+    background-image: url('AramiantsHospitalTbilisi-01.png');
+    background-size: cover;
+    animation: heartbeat 1.5s infinite;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    z-index: 999;
+}
 .img1 {
     border: 1px solid black;
     border-radius: 10px;
@@ -77,4 +89,12 @@ h1 {
     color: aliceblue;
     transition: 1s;
     border-radius: 24px;
+}
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
 }
