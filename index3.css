@@ -5,6 +5,7 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    margin: 0;
 }
 form {
     display: flex;
@@ -69,24 +70,22 @@ label {
 .div3 {
     position: relative;
     text-align: center;
-    width: 106%;
+    width: 100%;
     height: 10%;
     bottom: -100%;
-    left: -5%;
     background-color: dodgerblue;
     border: 1px solid black;
 }
 .div4 {
-    width: 10%;
-    height: 20%;
-    background-image: url('AramiantsHospitalTbilisi-01.png');
+    width: 9%;
+    height: 18%;
+    background-image: url('AramiantsHospitalTbilisiLogo.png');
     background-size: cover;
-    animation: heartbeat 1.5s infinite;
+    animation: heartbeat 2.0s infinite;
     position: fixed;
-    top: 0%;
-    left: 0%;
-    display: flex;
-    z-index: 999;
+    top: -1%;
+    left: 1%;
+    z-index: 998;
 }
 .button1 {
     border-radius: 24px;
