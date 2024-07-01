@@ -1,5 +1,5 @@
 html {
-    background-color:lightgreen;
+    background-color: lightgreen;
 }
 body {
     width: 100vw;
@@ -7,19 +7,23 @@ body {
     overflow-x: hidden;
     margin: 0;
 }
-ul,li {
-    color: black;
-    margin: 0.0001%;
-}
-ul,li:hover {
-    color: aliceblue;
-}
 a {
     text-decoration: none;
 }
+ul, li {
+    color: black;
+    margin: 0.0001%;
+}
+ul, li:hover {
+    color: aliceblue;
+}
+.i1 {
+    background-color: rgb(196, 229, 245);
+    border-radius: 20%;
+}
 .p1 {
     position: absolute;
-    margin-top:2%;
+    margin-top: 2%;
     top: 9%;
     left: 8%;
 }
@@ -35,21 +39,17 @@ a {
     top: 3%;
     left: 8%;
     margin-bottom: 1%;
-    margin-bottom: 1%;
 }
 .ul1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 1%;
+    padding: 1%;
     width: 100%;
 }
 .div0 {
     text-align: center;
-    background-color:dodgerblue;
+    background-color: dodgerblue;
     border: 1px solid black;
     width: 100%;
     top: -1%;
@@ -58,18 +58,15 @@ a {
 .div1 {
     position: relative;
     width: 99vw;
-    background-color:limegreen;
+    background-color: limegreen;
     border-radius: 24px;
     margin-bottom: 1%;
     transition: 1s;
     word-wrap: break-word;
 }
 .div1:hover {
-    position: relative;
     width: 90%;
     background-color: rgb(0, 255, 0);
-    border-radius: 24px;
-    transition: 1s;
 }
 .div2 {
     position: relative;
@@ -79,68 +76,39 @@ a {
     width: fit-content;
 }
 .div3 {
-    background-color:dodgerblue;
+    background-color: dodgerblue;
     position: relative;
     width: 30%;
-    padding-right: 1%;
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 1%;
     left: 45%;
     text-align: center;
     border-radius: 20%;
     word-wrap: break-word;
-    top: 0%;
     z-index: 1;
     transition: 1s;
 }
 .div3:hover {
-    background-color:rgb(0, 128, 255);
-    position: relative;
-    width: 30%;
-    padding-right: 1%;
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    left: 45%;
-    text-align: center;
+    background-color: rgb(0, 128, 255);
     border-radius: 40%;
-    word-wrap: break-word;
-    top: 0%;
     z-index: 2;
-    transition: 1s;
 }
 .div4 {
-    background-color:limegreen;
+    background-color: limegreen;
     left: 25%;
     text-align: center;
     border-radius: 20%;
     position: relative;
     width: 30%;
     word-wrap: break-word;
-    padding-right: 1%;
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 1%;
     top: -3%;
     z-index: 0;
     transition: 1s;
 }
 .div4:hover {
-    background-color:rgb(0, 255, 0);
-    left: 25%;
-    text-align: center;
+    background-color: rgb(0, 255, 0);
     border-radius: 40%;
-    position: relative;
-    width: 30%;
-    word-wrap: break-word;
-    padding-right: 1%;
-    padding-left: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    top: -3%;
     z-index: 1;
-    transition: 1s;
 }
 .div5 {
     position: relative;
@@ -158,7 +126,7 @@ a {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: calc(0.6);
+    opacity: 0.6;
 }
 .div7 {
     position: relative;
@@ -204,64 +172,25 @@ a {
     left: 1%;
     z-index: 998;
 }
-.subdiv1 {
+.subdiv1, .subdiv2, .subdiv3 {
     background-color: dodgerblue;
     border: 1px solid black;
     transition: 1s;
 }
-.subdiv1:hover {
-    background-color: dodgerblue;
-    border: 1px solid black;
+.subdiv1:hover, .subdiv2:hover, .subdiv3:hover {
     color: aliceblue;
-    transition: 1s;
-}
-.subdiv2 {
-    background-color: dodgerblue;
-    border: 1px solid black;
-    transition: 1s;
-}
-.subdiv2:hover {
-    background-color: dodgerblue;
-    border: 1px solid black;
-    color: aliceblue;
-    transition: 1s;
-}
-.subdiv3 {
-    background-color: dodgerblue;
-    border: 1px solid black;
-    transition: 1s;
-}
-.subdiv3:hover {
-    background-color: dodgerblue;
-    border: 1px solid black;
-    color: aliceblue;
-    transition: 1s;
 }
 .button1 {
     background-color: dodgerblue;
     color: black;
-    padding-right: 4%;
-    padding-left: 4%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    padding: 1.5% 4%;
     text-align: center; 
     border-radius: 20%;   
-    margin-bottom: 5%;
-    margin-left:10%;
-    margin-right:10%
+    margin: 5% 10%;
 }
 .button1:hover {
     background-color: rgb(0, 128, 255);
     color: aliceblue;
-    padding-right: 4%;
-    padding-left: 4%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    border-radius: 20%;
-    text-align: center;    
-    margin-bottom: 5%;
-    margin-left:10%;
-    margin-right:10%
 }
 .button2 {
     color: black;
@@ -271,7 +200,6 @@ a {
 .button2:hover {
     color: aliceblue;
     background-color: rgb(0, 128, 255);
-    border-radius: 20%;
 }
 .button3 {
     position: absolute; 
@@ -279,43 +207,24 @@ a {
     left: 8%;
     background-color: dodgerblue;
     color: black;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding: 0.5% 2%;
     border-radius: 12px;
     transition: 1s;
     margin-top: 2%;
 }
 .button3:hover {
-    position: absolute; 
-    top: 14%;
-    left: 8%;
     background-color: rgb(0, 128, 255);
     color: aliceblue;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
     border-radius: 50%;
-    transition: 1s;
-    margin-top: 2%;
-}
-.i1 {
-    background-color: rgb(196, 229, 245);
-    border-radius: 20%;
 }
 .img1 {
     width: 100%;
     height: 25%;
     position: absolute;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     z-index: -2;
-    opacity: calc(0.9);
+    opacity: 0.9;
     border-radius: 12px;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
 }
 @keyframes heartbeat {
@@ -324,5 +233,94 @@ a {
     }
     50% {
         transform: scale(1.2);
+    }
+}
+@media screen and (max-width: 425px) {
+    body {
+        width: 100vw;
+        height: 400vh;
+    }
+    ul {
+        margin: 5%;
+    }
+    .div0 {
+        top: 0%;
+    }
+    .div1 {
+        position: relative;
+        width: 100%;
+        margin-bottom: 1%;
+        transition: 1s;
+    }
+    .div1:hover {
+        width: 90%;
+        background-color: rgb(0, 255, 0);
+    }
+    .div2 {
+        position: relative;
+        left: 2%;
+        top: 5%;
+        margin: 1%;
+        width: fit-content;
+        opacity: calc(0);
+    }
+    .div3 {
+        top: 10%;
+        left: 3%;
+        width: 70%;
+    }
+    .div4 {
+        top: 12%;
+        width: 70%;
+        right: 1%;
+    }
+    .div6 {
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: calc(0);
+    }
+    .div8 {
+        width: 100vw;
+        height: 100vh;
+    }
+    .div8dot9 {
+        position: relative;
+        text-align: center;
+        margin-top: -50%;
+        margin-bottom: -60%;
+        width: 100%;
+    }
+    .div9 {
+        width: 90%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .div10 {
+        opacity: calc(0);
+    }
+    .ul1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 5%;
+        width: 100%;
+    }
+    .img1 {
+        width: 100%;
+        height: 18%;
+        position: absolute;
+        margin: auto;
+        z-index: -2;
+        opacity: 0.9;
+        border-radius: 1%;
+        display: block;
     }
 }
