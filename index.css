@@ -17,9 +17,12 @@ ul, li {
 ul, li:hover {
     color: aliceblue;
 }
-.i1 {
-    background-color: rgb(196, 229, 245);
-    border-radius: 20%;
+.ul1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+    width: 100%;
 }
 .p1 {
     position: absolute;
@@ -31,21 +34,15 @@ ul, li:hover {
     padding-top: 5%;
 }
 .h3 {
+    font-size: 300%;
+    color: dodgerblue;
     position: relative;
-    left: 2vw;
 }
 .h4 {
     position: absolute;
     top: 3%;
     left: 8%;
     margin-bottom: 1%;
-}
-.ul1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 1%;
-    width: 100%;
 }
 .div0 {
     text-align: center;
@@ -78,23 +75,26 @@ ul, li:hover {
 .div3 {
     background-color: dodgerblue;
     position: relative;
+    top: 5%;
     width: 30%;
     padding: 1%;
-    left: 45%;
+    left: 55%;
     text-align: center;
     border-radius: 20%;
     word-wrap: break-word;
     z-index: 1;
     transition: 1s;
+    transform: rotate(-5deg);
 }
 .div3:hover {
     background-color: rgb(0, 128, 255);
     border-radius: 40%;
     z-index: 2;
+    transform: rotate(0deg);
 }
 .div4 {
     background-color: limegreen;
-    left: 25%;
+    left: 35%;
     text-align: center;
     border-radius: 20%;
     position: relative;
@@ -104,11 +104,13 @@ ul, li:hover {
     top: -3%;
     z-index: 0;
     transition: 1s;
+    transform: rotate(5deg);
 }
 .div4:hover {
     background-color: rgb(0, 255, 0);
     border-radius: 40%;
     z-index: 1;
+    transform: rotate(0deg);
 }
 .div5 {
     position: relative;
@@ -174,8 +176,17 @@ ul, li:hover {
 }
 .subdiv1, .subdiv2, .subdiv3 {
     background-color: dodgerblue;
-    border: 1px solid black;
+    border-radius: 12px;
     transition: 1s;
+    background: repeating-linear-gradient(
+        130deg,
+        transparent 50px,
+        transparent 10px,
+        dodgerblue 1000px,
+        limegreen 1000px
+    );
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    padding: 0.5%;
 }
 .subdiv1:hover, .subdiv2:hover, .subdiv3:hover {
     color: aliceblue;
@@ -193,13 +204,42 @@ ul, li:hover {
     color: aliceblue;
 }
 .button2 {
-    color: black;
-    background-color: dodgerblue;
+    background: repeating-linear-gradient(
+        130deg,
+        transparent,
+        transparent 10px,
+        dodgerblue 1000px,
+        limegreen 1000px
+    );
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 1s ease;
     border-radius: 20%;
+    position: relative;
 }
 .button2:hover {
     color: aliceblue;
     background-color: rgb(0, 128, 255);
+}
+.button2::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: limegreen;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.button2:hover::before {
+    opacity: 1;
 }
 .button3 {
     position: absolute; 
@@ -258,11 +298,9 @@ ul, li:hover {
     }
     .div2 {
         position: relative;
-        left: 2%;
-        top: 5%;
-        margin: 1%;
-        width: fit-content;
-        opacity: calc(0);
+        top: 3%;
+        margin: 0.1%;
+        width: 90%;
     }
     .div3 {
         top: 10%;
@@ -272,7 +310,7 @@ ul, li:hover {
     .div4 {
         top: 12%;
         width: 70%;
-        right: 1%;
+        right: 3%;
     }
     .div6 {
         position: absolute;
@@ -304,7 +342,25 @@ ul, li:hover {
         justify-content: space-evenly;
     }
     .div10 {
-        opacity: calc(0);
+        width: 15%;
+        height: 10%;
+        top: 0.1%;
+        left: 0.1%;
+    }
+    .subdiv1, .subdiv2, .subdiv3 {
+        background-color: dodgerblue;
+        border-radius: 12px;
+        transition: 1s;
+        background: repeating-linear-gradient(
+            130deg,
+            transparent 50px,
+            transparent 10px,
+            dodgerblue 1000px,
+            limegreen 1000px
+        );
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+        padding: 0%;
+        padding-top: 5%;
     }
     .ul1 {
         display: flex;

@@ -53,7 +53,13 @@ label {
     max-width: 50%;
     height: 60%;
     margin: auto;
-    background-color: dodgerblue;
+    background: repeating-linear-gradient(
+        130deg,
+        transparent,
+        transparent 10px,
+        dodgerblue 100px,
+        limegreen 1000px
+    );
     border-radius: 124px;
     border: 3px solid limegreen;
     position: relative;

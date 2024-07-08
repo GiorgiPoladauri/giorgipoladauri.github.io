@@ -36,7 +36,14 @@ body {
 }
 .div3 {
     text-align: center;
-    background-color: dodgerblue;
+    transition: 1s;
+    background: repeating-linear-gradient(
+        919deg,
+        transparent 5px,
+        transparent 5px,
+        dodgerblue 300px,
+        limegreen 190px
+    );
     width: 20%;
     height: 45%;
     border: 1px solid limegreen;
@@ -46,7 +53,14 @@ body {
 }
 .div4 {
     text-align: center;
-    background-color: dodgerblue;
+    transition: 1s;
+    background: repeating-linear-gradient(
+        110deg,
+        transparent 1px,
+        transparent 1px,
+        dodgerblue 250px,
+        limegreen 150px
+    );
     width: 20%;
     height: 45%;
     margin-left: auto;
