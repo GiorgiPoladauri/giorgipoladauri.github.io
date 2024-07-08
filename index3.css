@@ -35,7 +35,8 @@ label {
     color: dodgerblue;
     font-size: 165%;
     margin: 5%;
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     border-right: 2px solid limegreen;
     white-space: nowrap;
     overflow: hidden;
@@ -77,9 +78,8 @@ label {
     position: relative;
     text-align: center;
     width: 100%;
-    height: 10%;
-    bottom: -100%;
-    background-color: dodgerblue;
+    height: 30%;
+    background: radial-gradient(circle, dodgerblue, skyblue);
     border: 1px solid black;
 }
 .div4 {
@@ -118,6 +118,8 @@ label {
     opacity: calc(1.0);
 }
 .button2 {
+    margin-top: 50%;
+    margin-bottom: 50%;
     border-radius: 24px;
     opacity: calc(0.6);
     transition: 1s;
@@ -138,6 +140,13 @@ label {
     padding-bottom: 1%;
     border-radius: 50%;
     opacity: calc(1.0);
+}
+.img1 {
+    width: 2%;
+    transition: 1s;
+}
+.img1:hover {
+    width: 3%;
 }
 @keyframes heartbeat {
     0%, 100% {

@@ -51,6 +51,11 @@ ul, li:hover {
     width: 100%;
     top: -1%;
     position: relative;
+    background: 
+    linear-gradient(135deg, limegreen 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, dodgerblue 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, lightgreen 25%, transparent 25%),
+    linear-gradient(45deg, dodgerblue 25%, transparent 25%);
 }
 .div1 {
     position: relative;
@@ -116,9 +121,8 @@ ul, li:hover {
     position: relative;
     text-align: center;
     width: 100%;
-    height: 10%;
-    bottom: 0%;
-    background-color: dodgerblue;
+    height: 30%;
+    background: radial-gradient(circle, dodgerblue, skyblue);
     border: 1px solid black;
 }
 .div6 {
@@ -128,7 +132,7 @@ ul, li:hover {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.2;
 }
 .div7 {
     position: relative;
@@ -198,6 +202,7 @@ ul, li:hover {
     text-align: center; 
     border-radius: 20%;   
     margin: 5% 10%;
+    transition: 1s;
 }
 .button1:hover {
     background-color: rgb(0, 128, 255);
@@ -267,6 +272,13 @@ ul, li:hover {
     border-radius: 12px;
     display: block;
 }
+.img2 {
+    width: 2%;
+    transition: 1s;
+}
+.img2:hover {
+    width: 3%;
+}
 @keyframes heartbeat {
     0%, 100% {
         transform: scale(1);
@@ -279,6 +291,7 @@ ul, li:hover {
     body {
         width: 100vw;
         height: 400vh;
+        overflow-x: hidden;
     }
     ul {
         margin: 5%;
@@ -304,22 +317,23 @@ ul, li:hover {
     }
     .div3 {
         top: 10%;
-        left: 3%;
+        left: 5%;
         width: 70%;
     }
     .div4 {
         top: 12%;
         width: 70%;
         right: 3%;
+        margin-left: -15%;
+    }
+    .div5 {
+        width: 100%;
+        height: 15%;
     }
     .div6 {
         position: absolute;
-        top: 30%;
-        left: 2%;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        opacity: calc(0);
+        top: 85%;
+        left: 0.1%;
     }
     .div8 {
         width: 100vw;
@@ -342,7 +356,7 @@ ul, li:hover {
         justify-content: space-evenly;
     }
     .div10 {
-        width: 15%;
+        width: 17%;
         height: 10%;
         top: 0.1%;
         left: 0.1%;
@@ -378,5 +392,16 @@ ul, li:hover {
         opacity: 0.9;
         border-radius: 1%;
         display: block;
+    }
+    .img2 {
+        width: 8%;
+        transition: 1s;
+    }
+    .img2:hover {
+        width: 12%;
+    }
+    .button1 {
+        white-space: normal;
+        width: 50%;
     }
 }

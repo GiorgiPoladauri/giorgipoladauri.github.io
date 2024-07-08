@@ -76,9 +76,8 @@ body {
     position: relative;
     text-align: center;
     width: 100%;
-    height: 10%;
-    bottom: -100%;
-    background-color: dodgerblue;
+    height: 30%;
+    background: radial-gradient(circle, dodgerblue, skyblue);
     border: 1px solid black;
 }
 .div6 {
@@ -88,6 +87,7 @@ body {
     margin-right: auto;
     justify-content: center;
     margin-top: 5%;
+    margin-bottom: 10%;
 }
 .div7 {
     width: 9%;
@@ -121,6 +121,13 @@ body {
     padding-bottom: 1%;
     border-radius: 50%;
     opacity: calc(1.0);
+}
+.img1 {
+    width: 2%;
+    transition: 1s;
+}
+.img1:hover {
+    width: 3%;
 }
 @keyframes float {
     0% {

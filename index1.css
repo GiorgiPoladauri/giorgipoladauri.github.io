@@ -1,5 +1,5 @@
 html {
-    background-color:lightgreen;
+    background-color: lightgreen;
 }
 body {
     width: 100vw;
@@ -29,12 +29,12 @@ table,td {
     margin-top: 5%;
 }
 .div5 {
+    margin-top: 100%;
     position: relative;
     text-align: center;
     width: 100%;
-    height: 10%;
-    bottom: -100%;
-    background-color: dodgerblue;
+    height: 30%;
+    background: radial-gradient(circle, dodgerblue, skyblue);
     border: 1px solid black;
 }
 .div6 {
@@ -79,6 +79,13 @@ table,td {
     z-index: -1;
     opacity:calc(0.6);
     border-radius: 40%;
+}
+.img1 {
+    width: 2%;
+    transition: 1s;
+}
+.img1:hover {
+    width: 3%;
 }
 @keyframes heartbeat {
     0%, 100% {
