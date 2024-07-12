@@ -148,3 +148,57 @@ body {
         transform: scale(1.2);
     }
 }
+@media screen and (max-width: 425px) {
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+        height: 400vh;
+    }
+    .div0 {
+        padding: 5%;
+    }
+    .div1 {
+        flex-direction: column;
+        top: -5%;
+    }
+    .div2 {
+        width: 50%;
+        height: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div3 {
+        width: 50%;
+        height: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div4 {
+        width: 50%;
+        height: 25%;
+        top: -5%;
+    }
+    .div5 {
+        height: 15%;
+    }
+    .div6 {
+        width: 100%;
+        height: 100%;
+    }
+    .div7 {
+        width: 17%;
+        height: 10%;
+        top: 0.1%;
+        left: 0.1%;
+    }
+    .button1 {
+        position: relative;
+        top: 10%;
+    }
+    .img1 {
+        width: 8%;
+    }
+    .img1:hover {
+        width: 12%;
+    }
+}

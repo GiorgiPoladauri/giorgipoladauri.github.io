@@ -6,6 +6,7 @@ body {
     height: 100vh;
     overflow-x: hidden;
     margin: 0;
+    position: relative;
 }
 form {
     display: flex;
@@ -174,5 +175,101 @@ label {
     }
     100% {
         width: 100%;
+    }
+}
+@media screen and (max-width: 425px) {
+    body {
+        width: 100vw;
+        height: 400vh;
+        overflow-x: hidden;
+    }
+    form {
+        width: 80%;
+        margin-top: 30%;
+    }
+    textarea {
+        height: 25%;
+    }
+    input {
+        border-radius: 12px;
+    }
+    label {
+        color: aliceblue;
+        border-radius: 24px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+    .h1 {
+        font-size: 100%;
+        margin: 5%;
+        margin-top: 60%;
+        margin-bottom: 10%;
+        border-right: 2px solid limegreen;
+        white-space: normal;
+        overflow: hidden;
+        animation: typing-mobile 15s steps(100, end) infinite;
+    }
+    .div0 {
+        padding: 5%;
+    }
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        height: 25%;
+        width: 100%;
+        top: 5%;
+    }
+    .div2 {
+        position: relative;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .div3 {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 15%;
+    }
+    .div4 {
+        width: 17%;
+        height: 10%;
+        top: 0.1%;
+        left: 0.1%;
+    }
+    .button1 {
+        margin-top: 40%;
+    }
+    .button2 {
+        margin-top: 150%;
+        margin-bottom: 50%;
+    }
+    .img1 {
+        width: 8%;
+    }
+    .img1:hover {
+        width: 12%;
+    }
+    @keyframes typing-mobile {
+        0% {
+            max-width: 0;
+        }
+        30% {
+            max-width: 100%;
+        }
+        40% {
+            max-width: 100%;
+        }
+        60% {
+            max-width: 0;
+        }
+        70% {
+            max-width: 0;
+        }
+        100% {
+            max-width: 100%;
+        }
     }
 }

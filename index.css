@@ -395,7 +395,6 @@ ul, li:hover {
     }
     .img2 {
         width: 8%;
-        transition: 1s;
     }
     .img2:hover {
         width: 12%;
