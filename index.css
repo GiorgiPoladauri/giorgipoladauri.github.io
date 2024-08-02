@@ -59,10 +59,9 @@ ul, li:hover {
 }
 .div1 {
     position: relative;
-    width: 99vw;
+    width: 99%;
     background-color: limegreen;
     border-radius: 24px;
-    margin-bottom: 1%;
     transition: 1s;
     word-wrap: break-word;
 }

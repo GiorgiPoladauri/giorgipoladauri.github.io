@@ -10,12 +10,24 @@ body {
 table,td {
     border: 1px solid black;
     text-align: center;
+    border-radius: 20px;
 }
 h1 {
     text-align: center;
 }
 .div1, .div2 {
     position: relative;
+}
+.div2 {
+    background: repeating-linear-gradient(
+        130deg,
+        transparent 50px,
+        transparent 10px,
+        dodgerblue 1000px,
+        limegreen 1000px
+    );
+    z-index: -1;
+    padding: 2%;
 }
 .div3 {
     position: absolute;
@@ -54,10 +66,9 @@ h1 {
 }
 .img1 {
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px;
-    width: 50%;
-    height: 10%;
+    width: 70%;
     opacity: 0.6;
     display: block;
     margin-left: auto;
@@ -71,8 +82,8 @@ h1 {
     width: 3%;
 }
 .table1 {
-    position: absolute;
-    background-color: limegreen;
+    position: relative;
+    background: radial-gradient(ellipse, dodgerblue, skyblue);
     opacity: calc(0.8);
 }
 .button1 {
@@ -103,5 +114,121 @@ h1 {
     }
     50% {
         transform: scale(1.2);
+    }
+}
+@media screen and (max-width: 425px) {
+    body {
+        width: 100vw;
+        height: 200vh;
+        overflow-x: hidden;
+        margin: 0;
+    }
+    table,td {
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 20px;
+    }
+    h1 {
+        text-align: center;
+        margin: 2%;
+    }
+    .div1, .div2 {
+        position: relative;
+    }
+    .div2 {
+        background: repeating-linear-gradient(
+            130deg,
+            transparent 50px,
+            transparent 10px,
+            dodgerblue 1000px,
+            limegreen 1000px
+        );
+        z-index: -1;
+        padding: 10%;
+        top: 5%;
+        height: 30%;
+    }
+    .div3 {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top: 35%;
+    }
+    .div4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div5 {
+        margin-top: 100%;
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 30%;
+        background: radial-gradient(circle, dodgerblue, skyblue);
+        border: 1px solid black;
+    }
+    .div6 {
+        width: 17%;
+        height: 10%;
+        top: 0.1%;
+        left: 0.1%;
+    }
+    .img1 {
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 5px;
+        width: 100%;
+        opacity: 0.0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img2 {
+        width: 8%;
+    }
+    .img2:hover {
+        width: 12%;
+    }
+    .table1 {
+        position: relative;
+        background-color: limegreen;
+        opacity: calc(0.8);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .button1 {
+        position: relative;
+        margin-top: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        background-color: dodgerblue;
+        transition: 1s;
+        border-radius: 20%;
+    }
+    .button1:hover {
+        margin-top: 100%;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: rgb(0, 128, 255);
+        color: aliceblue;
+        transition: 1s;
+        border-radius: 24px;
+    }
+    @keyframes heartbeat {
+        0%, 100% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
     }
 }
