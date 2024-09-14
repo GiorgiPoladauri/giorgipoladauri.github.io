@@ -108,6 +108,12 @@ table,td {
     table,td {
         border-radius: 15px;
     }
+    table {
+        overflow-x: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
     .div1 {
         margin-bottom: 20%;
     }
@@ -123,10 +129,10 @@ table,td {
     .div3 {
         display: flex;
         justify-content: center;
-        margin-top: 40%;
+        margin-top: 20%;
     }
     .div5 {
-        margin-top: 200%;
+        margin-top: 300%;
         position: relative;
         text-align: center;
         width: 100%;
